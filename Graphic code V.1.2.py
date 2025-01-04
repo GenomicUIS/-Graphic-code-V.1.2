@@ -105,6 +105,3 @@ ax2_twin.set_ylim(0, 3000)
 plt.tight_layout()
 plt.savefig('Figure1.tiff', dpi=300, format='tiff', bbox_inches='tight')
 plt.show()
-
-import sys
-print(sys.version)
